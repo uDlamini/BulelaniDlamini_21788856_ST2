@@ -93,7 +93,9 @@ body {
 
 #toolbtns {
   position: absolute;
-  margin: 1px;
+  bottom: 10px;
+  left: 10px;
+  margin: 0;
   box-shadow: 1px 2px 6px rgba(0,0,0,0.2);
   float: left;
 }
@@ -104,6 +106,7 @@ body {
   height: 24px;
   padding: 6px;
   cursor: pointer;
+  box-sizing: unset !important;
 }
 
 #toolbtns > div:hover {
@@ -482,3 +485,44 @@ table.measure tr > td:nth-child(2) {
 .nextbtn::before {
   content: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48cGF0aCBkPSJNMzYuNyAxOC4yIDY4LjUgNTAgMzYuNyA4MS44IiBzdHJva2U9IiMwMDAiIHN0cm9rZS1saW5lY2FwPSJzcXVhcmUiIHN0cm9rZS13aWR0aD0iMTQiIGZpbGw9Im5vbmUiIGNsYXNzPSJsYXllciIvPjwvc3ZnPg==");
 }
+
+/* Style for the header */
+#header-title {
+  position: absolute;
+  top: 0px !important;
+  left: 0px !important;
+  font-family: Arial, sans-serif;
+  color: #002147; 
+}
+
+/* Position the search bar at the top right */
+#searchbar-container {
+  position: absolute;
+  top: 0px !important;
+  right: 0px !important;
+  width: 250px !important; 
+}
+
+/* Style the search button */
+#searchbar-div .btn {
+  background-color: #0c8fe7;
+  border-color: lightblue;
+  transition: background-color 0.3s ease;
+}
+
+#searchbar-div .btn:hover {
+  background-color: grey;
+  border-color: grey;
+}
+
+/*style header*/
+h3{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(223, 236, 236) !important;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  background-color: #0c8fe7 !important;
+  border: #10416e !important;
+}
+/*End Code*/
+
